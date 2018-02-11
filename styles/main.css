@@ -2,7 +2,45 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: "roboto", sans-serif;
+}
+
 .heading {
-	background-color: gold;
-	height: 120px;
+	background-color: #DAA520;
+	height: 90px;
+}
+
+.heading h1 {
+	margin: 10px 0;
+}
+
+.heading h4 {
+	margin: 0;
+
+}
+.body-wrapper {
+	margin-top: 30px;
+}
+
+.card {
+	border: 1px solid #DCDCDC;
+}
+
+@media only screen and (max-width: 640px) {
+	.card {
+		margin-top: 30px;
+	}
+}
+
+.photo img {
+	width: 100%;
+}
+
+.name {
+	padding-left: 15px;
+}
+
+.row {
+	margin-top: 30px;
 }
